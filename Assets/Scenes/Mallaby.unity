@@ -3717,8 +3717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pemimpin Baru tersebut adalah.....
-
+  m_text: 'Pemimpin baru tersebut adalah.....
 
 
     Jenderal Robert Mansergh'
@@ -10657,7 +10656,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Tentara Sekutu yang telah mendengar kabar tersebut\r              tentu
-    tidak tinggal diam dan telah mengirimkan Pemimpin baru\r\nuntuk membalaskan gugurnya
+    tidak tinggal diam dan telah mengirimkan pemimpin baru\r\nuntuk membalaskan gugurnya
     Brigjen AWS Mallaby......"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10667,7 +10666,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 0
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

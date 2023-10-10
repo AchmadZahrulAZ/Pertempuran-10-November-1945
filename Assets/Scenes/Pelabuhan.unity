@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297670437}
   - component: {fileID: 297670436}
+  - component: {fileID: 297670438}
   m_Layer: 0
   m_Name: Tentara Sekutu (7)
   m_TagString: Untagged
@@ -182,7 +183,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -207,6 +208,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &297670438
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297670435}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &312764213
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948657066}
   - component: {fileID: 948657065}
+  - component: {fileID: 948657067}
   m_Layer: 0
   m_Name: Tentara Sekutu (3)
   m_TagString: Untagged
@@ -716,7 +739,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -741,6 +764,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &948657067
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948657064}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1196021469
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1196021471}
   - component: {fileID: 1196021470}
+  - component: {fileID: 1196021472}
   m_Layer: 0
   m_Name: Tentara Sekutu
   m_TagString: Untagged
@@ -800,7 +845,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -825,6 +870,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1196021472
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196021469}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1348545264
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1348545266}
   - component: {fileID: 1348545265}
+  - component: {fileID: 1348545267}
   m_Layer: 0
   m_Name: Tentara Sekutu (6)
   m_TagString: Untagged
@@ -884,7 +951,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -909,6 +976,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1348545267
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348545264}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1508726969
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,6 +1007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508726971}
   - component: {fileID: 1508726970}
+  - component: {fileID: 1508726972}
   m_Layer: 0
   m_Name: Tentara Sekutu (4)
   m_TagString: Untagged
@@ -968,7 +1057,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -993,6 +1082,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1508726972
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508726969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1527786885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527786887}
   - component: {fileID: 1527786886}
+  - component: {fileID: 1527786888}
   m_Layer: 0
   m_Name: Tentara Sekutu (1)
   m_TagString: Untagged
@@ -1052,7 +1163,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1077,6 +1188,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1527786888
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527786885}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1867189541
 GameObject:
   m_ObjectHideFlags: 0
@@ -6665,6 +6797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1958086520}
   - component: {fileID: 1958086519}
+  - component: {fileID: 1958086521}
   m_Layer: 0
   m_Name: Tentara Sekutu (2)
   m_TagString: Untagged
@@ -6714,7 +6847,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6739,6 +6872,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1958086521
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958086518}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2076761096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6749,6 +6903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2076761098}
   - component: {fileID: 2076761097}
+  - component: {fileID: 2076761099}
   m_Layer: 0
   m_Name: Tentara Sekutu (5)
   m_TagString: Untagged
@@ -6798,7 +6953,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
+  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6823,6 +6978,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2076761099
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076761096}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da7114d9a2c1fe54fa41826c78e3780e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &286358985469958092
 GameObject:
   m_ObjectHideFlags: 0
@@ -6884,7 +7060,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1651995498, guid: d16125694eafbd14eae9cea8ca1416c4, type: 3}
-  m_Color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
+  m_Color: {r: 0.003921569, g: 0.12941177, b: 0.4117647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
