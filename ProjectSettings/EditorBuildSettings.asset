@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 3d246108613bb174aa557d7149684a27
   - enabled: 1
+    path: Assets/Scenes/Mallaby.unity
+    guid: b82b72f527c564144bdcf513056f72a3
+  - enabled: 1
     path: Assets/Scenes/Ultimatum.unity
     guid: 072f8a12605756b4ba3991d586e565fd
   - enabled: 1

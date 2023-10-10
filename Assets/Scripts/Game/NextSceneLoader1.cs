@@ -7,6 +7,6 @@ public class NextSceneLoader1 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Ultimatum", LoadSceneMode.Single);
+        SceneManager.LoadScene("Mallaby", LoadSceneMode.Single);
     }
 }
