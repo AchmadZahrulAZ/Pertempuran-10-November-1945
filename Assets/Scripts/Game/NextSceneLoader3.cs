@@ -7,6 +7,6 @@ public class NextSceneLoader3 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Penutup", LoadSceneMode.Single);
+        SceneManager.LoadScene("Ultimatum", LoadSceneMode.Single);
     }
 }

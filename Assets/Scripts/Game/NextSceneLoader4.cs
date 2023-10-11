@@ -7,6 +7,6 @@ public class NextSceneLoader4 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
+        SceneManager.LoadScene("Rumah", LoadSceneMode.Single);
     }
 }
