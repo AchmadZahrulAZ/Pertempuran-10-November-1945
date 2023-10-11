@@ -7,6 +7,6 @@ public class NextSceneLoader2 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Pidato", LoadSceneMode.Single);
+        SceneManager.LoadScene("Pelabuhan", LoadSceneMode.Single);
     }
 }
