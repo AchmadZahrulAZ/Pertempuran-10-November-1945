@@ -12,14 +12,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Mallaby.unity
     guid: b82b72f527c564144bdcf513056f72a3
   - enabled: 1
+    path: Assets/Scenes/Pelabuhan.unity
+    guid: 864e23d5ca75f3f428273d1c413624e6
+  - enabled: 1
     path: Assets/Scenes/Ultimatum.unity
     guid: 072f8a12605756b4ba3991d586e565fd
   - enabled: 1
+    path: Assets/Scenes/Rumah.unity
+    guid: a953296b7bc37bf43ba2201722cbe0c7
+  - enabled: 1
+    path: Assets/Scenes/Pemukimanwarga.unity
+    guid: 317c39e93b6e6cf4cb87fa17d2b60620
+  - enabled: 1
     path: Assets/Scenes/Pidato.unity
     guid: 22d07e01f1ac800458b67f21fb84855c
-  - enabled: 1
-    path: Assets/Scenes/test.unity
-    guid: 813144631e929bf4288cff4a54ff267d
   - enabled: 1
     path: Assets/Scenes/Penutup.unity
     guid: ff9511572ddc3f44ab08a309dee749ec
