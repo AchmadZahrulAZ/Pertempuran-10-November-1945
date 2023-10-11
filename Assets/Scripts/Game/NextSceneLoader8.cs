@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextSceneLoader4 : MonoBehaviour
+public class NextSceneLoader8 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Rumah", LoadSceneMode.Single);
+        SceneManager.LoadScene("Pertempuran", LoadSceneMode.Single);
     }
 }

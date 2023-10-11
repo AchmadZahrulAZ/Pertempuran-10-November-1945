@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &568962530
+--- !u!1 &304722358
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,42 +131,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 568962532}
-  - component: {fileID: 568962533}
+  - component: {fileID: 304722360}
+  - component: {fileID: 304722359}
   m_Layer: 0
-  m_Name: NextSceneLoader4
+  m_Name: NextSceneLoader10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &568962532
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568962530}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 513.8, y: 207, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &568962533
+--- !u!114 &304722359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568962530}
+  m_GameObject: {fileID: 304722358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbbaf90ec68b6a64a8343cfecd3d71bd, type: 3}
+  m_Script: {fileID: 11500000, guid: f823ed0c0b4bc204e95cd2beb7c3c20e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &304722360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304722358}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.19668555, y: 0.4934281, z: 3.8800771}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &652899900
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,7 +650,7 @@ PlayableDirector:
   - key: {fileID: 146841836566746367, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 867169185}
   - key: {fileID: 9206244078485451748, guid: a4282ee7374939041befec919b65ecb6, type: 2}
-    value: {fileID: 568962530}
+    value: {fileID: 0}
   - key: {fileID: -8826547802968876134, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 0}
   - key: {fileID: -1608758486724752867, guid: a4282ee7374939041befec919b65ecb6, type: 2}
@@ -664,7 +664,7 @@ PlayableDirector:
   - key: {fileID: -3869714404832855142, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 1021745367}
   - key: {fileID: 9206244078485451748, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
-    value: {fileID: 568962530}
+    value: {fileID: 0}
   - key: {fileID: 4825439428887551881, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 1606803083}
   - key: {fileID: 1020387147070100799, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
@@ -682,7 +682,7 @@ PlayableDirector:
   - key: {fileID: -730386975370110342, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 867169185}
   - key: {fileID: 2635194623601096615, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 568962530}
+    value: {fileID: 0}
   - key: {fileID: 3439895944851624767, guid: 69e26766ec1400047b0fca153e8bedd4, type: 2}
     value: {fileID: 1021745366}
   - key: {fileID: -4074765524228298677, guid: 69e26766ec1400047b0fca153e8bedd4, type: 2}
@@ -700,7 +700,7 @@ PlayableDirector:
   - key: {fileID: -1136546238826508401, guid: 69e26766ec1400047b0fca153e8bedd4, type: 2}
     value: {fileID: 1369032338}
   - key: {fileID: 6749046231323731585, guid: 69e26766ec1400047b0fca153e8bedd4, type: 2}
-    value: {fileID: 568962530}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1261053852
@@ -998,4 +998,4 @@ SceneRoots:
   - {fileID: 652899904}
   - {fileID: 1261053855}
   - {fileID: 770295084}
-  - {fileID: 568962532}
+  - {fileID: 304722360}

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextSceneLoader5 : MonoBehaviour
+public class NextSceneLoader0 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Pemukimanwarga", LoadSceneMode.Single);
+        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
     }
 }
