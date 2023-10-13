@@ -6,6 +6,7 @@ public class bullet_p : MonoBehaviour
 {
     public float bulletSpeed;
     public string tagCollide;
+    public float damage { get; set;} //bisa diset pada playerShoot_p.cs
     [SerializeField]private float lifeTime;
     private Rigidbody2D rb;
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class bullet_p : MonoBehaviour
     {
         if(collision.CompareTag(tagCollide)){
             Debug.Log("Collide with " + collision.tag);
+            collision.GetComponent<healthSystem>().takeDamage(damage);
             Destroy(gameObject);
         }
     }

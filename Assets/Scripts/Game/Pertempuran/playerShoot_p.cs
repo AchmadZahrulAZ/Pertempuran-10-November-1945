@@ -10,6 +10,7 @@ public class playerShoot_p : MonoBehaviour
     [Range(0.1f, 2f)]
     [SerializeField]private float fireRate;
     private float timer;
+    public float damage;
 
     // Update is called once per frame
     void Update()
@@ -25,6 +26,8 @@ public class playerShoot_p : MonoBehaviour
     }
 
     private void Shoot(){
-        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        bullet.GetComponent<bullet_p>().damage = damage;
+        
     }
 }

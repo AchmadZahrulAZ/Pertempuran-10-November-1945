@@ -6,11 +6,12 @@ public class playerMovement_p : MonoBehaviour
 {
     public float speed = 5.0f; // Kecepatan pemain
     private Rigidbody2D rb;
-    //public Animator animator;
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -20,6 +21,7 @@ public class playerMovement_p : MonoBehaviour
 
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         rb.velocity = movement * speed;
+        animator.SetFloat("movement", movement.sqrMagnitude);
 
         if(moveHorizontal > 0)
         {
