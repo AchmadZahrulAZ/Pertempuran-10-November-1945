@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 428450321}
   - component: {fileID: 428450320}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Nameline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5314,7 +5314,7 @@ GameObject:
   - component: {fileID: 1727017074}
   - component: {fileID: 1727017073}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
