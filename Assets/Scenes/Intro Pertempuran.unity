@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 1857156098}
   - component: {fileID: 1857156097}
   m_Layer: 5
-  m_Name: 1. Teks Pidato Pertama
+  m_Name: 1. Teks Intro Pertempuran Pertama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -635,8 +635,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Handoko bertemu dengan Gubernur Suryo dan Bung Tomo \nuntuk memberitahukan
-    pamflet ultimatum yang telah tersebar"
+  m_Text: Pada esok hari, tanggal 10 November 1945
 --- !u!222 &1857156099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -677,7 +676,7 @@ GameObject:
   - component: {fileID: 1904597621}
   - component: {fileID: 1904597620}
   m_Layer: 5
-  m_Name: 2. Teks Pidato Kedua
+  m_Name: 2. Teks Intro Pertempuran Kedua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -737,8 +736,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Setelah mendengar kabar mengenai ultimatum, \nGubernur Suryo menyampaikan
-    penolakan atas ultimatum tersebut melalui radio"
+  m_Text: 'Pertempuran akbar antara arek-arek Suroboyo dengan Tentara Sekutu
+
+    tak
+    terhindarkan lagi'
 --- !u!222 &1904597622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -779,7 +780,7 @@ GameObject:
   - component: {fileID: 1950947922}
   - component: {fileID: 1950947921}
   m_Layer: 5
-  m_Name: 3. Teks Pidato Ketiga
+  m_Name: 3. Teks Intro Pertempuran Ketiga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -839,8 +840,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Bung Tomo juga ikut andil dalam memberikan pidato \nyang membakar semangat
-    arek-arek Suroboyo melawan tentara sekutu "
+  m_Text: ' '
 --- !u!222 &1950947923
 CanvasRenderer:
   m_ObjectHideFlags: 0
