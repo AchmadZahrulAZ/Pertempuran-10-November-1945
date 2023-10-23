@@ -7,6 +7,6 @@ public class NextSceneLoader8 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Pertempuran", LoadSceneMode.Single);
+        SceneManager.LoadScene("Intropertempuran", LoadSceneMode.Single);
     }
 }

@@ -123,50 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &36761389
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 36761391}
-  - component: {fileID: 36761390}
-  m_Layer: 0
-  m_Name: NextSceneLoader7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &36761390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36761389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4752d323e9638449b49ef1144d8de8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &36761391
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36761389}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19668555, y: 0.4934281, z: 3.8800771}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &896883672
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,13 +322,13 @@ PlayableDirector:
   - key: {fileID: 6537286150896954807, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 1904597619}
   - key: {fileID: -5381743547545333433, guid: a4282ee7374939041befec919b65ecb6, type: 2}
-    value: {fileID: 1950947920}
+    value: {fileID: 0}
   - key: {fileID: -3869714404832855142, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 1857156097}
   - key: {fileID: -1582760047990909114, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 1904597620}
   - key: {fileID: 146841836566746367, guid: a4282ee7374939041befec919b65ecb6, type: 2}
-    value: {fileID: 1950947921}
+    value: {fileID: 0}
   - key: {fileID: 9206244078485451748, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 0}
   - key: {fileID: -8826547802968876134, guid: a4282ee7374939041befec919b65ecb6, type: 2}
@@ -384,7 +340,7 @@ PlayableDirector:
   - key: {fileID: 6537286150896954807, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 1904597619}
   - key: {fileID: -5381743547545333433, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
-    value: {fileID: 1950947920}
+    value: {fileID: 0}
   - key: {fileID: -3869714404832855142, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 1857156097}
   - key: {fileID: 9206244078485451748, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
@@ -392,21 +348,17 @@ PlayableDirector:
   - key: {fileID: 4825439428887551881, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 1904597620}
   - key: {fileID: 1020387147070100799, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
-    value: {fileID: 1950947921}
+    value: {fileID: 0}
   - key: {fileID: -8584848964311445773, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 1857156096}
   - key: {fileID: 6175441601262707174, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 1904597619}
-  - key: {fileID: 3091039712806105199, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 1950947920}
   - key: {fileID: 2646508091646178795, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 1857156097}
   - key: {fileID: 8353970854275694516, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 1904597620}
-  - key: {fileID: -730386975370110342, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 1950947921}
-  - key: {fileID: 2635194623601096615, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 36761389}
+  - key: {fileID: -4213907258123751463, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1707889984
@@ -486,7 +438,6 @@ RectTransform:
   m_Children:
   - {fileID: 1857156100}
   - {fileID: 1904597623}
-  - {fileID: 1950947924}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -736,7 +687,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pertempuran akbar antara arek-arek Suroboyo dengan Tentara Sekutu
+  m_Text: 'Pertempuran akbar antara arek-arek Suroboyo melawan Tentara Sekutu
 
     tak
     terhindarkan lagi'
@@ -767,107 +718,6 @@ RectTransform:
   m_AnchoredPosition: {x: -3, y: -9}
   m_SizeDelta: {x: 882.5227, y: 186.8705}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1950947920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1950947924}
-  - component: {fileID: 1950947923}
-  - component: {fileID: 1950947922}
-  - component: {fileID: 1950947921}
-  m_Layer: 5
-  m_Name: 3. Teks Intro Pertempuran Ketiga
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1950947921
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950947920}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1950947922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950947920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 55
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ' '
---- !u!222 &1950947923
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950947920}
-  m_CullTransparentMesh: 1
---- !u!224 &1950947924
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950947920}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1707889987}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -9}
-  m_SizeDelta: {x: 882.5227, y: 186.8705}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -875,4 +725,3 @@ SceneRoots:
   - {fileID: 1767055705}
   - {fileID: 1707889987}
   - {fileID: 896883676}
-  - {fileID: 36761391}
