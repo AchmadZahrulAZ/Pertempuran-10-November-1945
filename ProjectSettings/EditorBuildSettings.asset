@@ -30,9 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Ruangsiaran.unity
     guid: f88c1f0d0fc7e33428771e51805e0bed
   - enabled: 1
-    path: Assets/Scenes/Intropertempuran.unity
-    guid: 7379879011aac2349a77f9043674506f
-  - enabled: 1
     path: Assets/Scenes/Pertempuran.unity
     guid: 7bc56195ab3df52408c86f8572dc86dd
   - enabled: 1
