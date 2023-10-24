@@ -333,7 +333,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pada Tanggal 10 November 1945
+  m_Text: 'Sang senja telah terbit pada ufuk timur, tanda hari telah berganti
+
+    tanggal
+    10 November 1945'
 --- !u!222 &227977463
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -434,7 +437,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 'Pertempuran akbar antara Arek-Arek Suroboyo melawan Tentara Sekutu
+
+    tak
+    terhindarkan'
 --- !u!222 &548879622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -577,6 +583,14 @@ PlayableDirector:
     value: {fileID: 548879619}
   - key: {fileID: -8710292484824680268, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
     value: {fileID: 1626150111}
+  - key: {fileID: -1215429910136048191, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
+    value: {fileID: 227977461}
+  - key: {fileID: 2518633099010837642, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
+    value: {fileID: 548879620}
+  - key: {fileID: -1584038465054768685, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3187675446358160104, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &803588568
