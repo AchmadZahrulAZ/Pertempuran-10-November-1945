@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 291627856, guid: 42d88fb6746888e4faed153d0b105ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.94509804, g: 0.7607843, b: 0.49019608, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c3958f0c6ed1e04b9785d01529e5e2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxhealth: 100
+  maxhealth: 200
 --- !u!114 &5956560492785383737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,8 +200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 527260269621744830, guid: 1df0ee53e114c144699ebf151fed2481, type: 3}
   firePoint: {fileID: 2446450357214142492}
-  fireRate: 2
-  damage: 10
+  fireRate: 1
+  damage: 1
   teamdamage: Enemy
 --- !u!1 &7406170877141798626
 GameObject:
