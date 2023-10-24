@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 227977462}
   - component: {fileID: 227977461}
   m_Layer: 5
-  m_Name: 1. Teks Pidato Pertama
+  m_Name: 1. Teks Intropertempuran Pertama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 548879621}
   - component: {fileID: 548879620}
   m_Layer: 5
-  m_Name: 2. Teks Pidato Kedua
+  m_Name: 2. Teks Intropertempuran Kedua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,13 +530,13 @@ PlayableDirector:
   - key: {fileID: 6537286150896954807, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 548879619}
   - key: {fileID: -5381743547545333433, guid: a4282ee7374939041befec919b65ecb6, type: 2}
-    value: {fileID: 1626150111}
+    value: {fileID: 0}
   - key: {fileID: -3869714404832855142, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 227977461}
   - key: {fileID: -1582760047990909114, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 548879620}
   - key: {fileID: 146841836566746367, guid: a4282ee7374939041befec919b65ecb6, type: 2}
-    value: {fileID: 1626150112}
+    value: {fileID: 0}
   - key: {fileID: 9206244078485451748, guid: a4282ee7374939041befec919b65ecb6, type: 2}
     value: {fileID: 0}
   - key: {fileID: -8826547802968876134, guid: a4282ee7374939041befec919b65ecb6, type: 2}
@@ -548,7 +548,7 @@ PlayableDirector:
   - key: {fileID: 6537286150896954807, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 548879619}
   - key: {fileID: -5381743547545333433, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
-    value: {fileID: 1626150111}
+    value: {fileID: 0}
   - key: {fileID: -3869714404832855142, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 227977461}
   - key: {fileID: 9206244078485451748, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
@@ -556,41 +556,37 @@ PlayableDirector:
   - key: {fileID: 4825439428887551881, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
     value: {fileID: 548879620}
   - key: {fileID: 1020387147070100799, guid: d2da917be6f47494d98a1d364f20be4c, type: 2}
-    value: {fileID: 1626150112}
+    value: {fileID: 0}
   - key: {fileID: -8584848964311445773, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 227977460}
   - key: {fileID: 6175441601262707174, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 548879619}
   - key: {fileID: 3091039712806105199, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 1626150111}
+    value: {fileID: 0}
   - key: {fileID: -730386975370110342, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 1626150112}
+    value: {fileID: 0}
   - key: {fileID: 2635194623601096615, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 0}
   - key: {fileID: -4213907258123751463, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 0}
   - key: {fileID: 6832385627499680455, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 1626150111}
+    value: {fileID: 0}
   - key: {fileID: -5829832298279347537, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 227977461}
   - key: {fileID: -8744038605770424836, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 548879620}
   - key: {fileID: -1456012294572072535, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 1626150112}
+    value: {fileID: 0}
   - key: {fileID: 1620072875196255395, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
     value: {fileID: 227977460}
   - key: {fileID: 6497225015466439739, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
     value: {fileID: 548879619}
-  - key: {fileID: -8710292484824680268, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
-    value: {fileID: 1626150111}
   - key: {fileID: -1215429910136048191, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
     value: {fileID: 227977461}
   - key: {fileID: 2518633099010837642, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
     value: {fileID: 548879620}
-  - key: {fileID: -1584038465054768685, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
-    value: {fileID: 0}
   - key: {fileID: 3187675446358160104, guid: 6b86bff672e4cb243b6b3fdb198d5e65, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1219020515}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &803588568
@@ -670,7 +666,6 @@ RectTransform:
   m_Children:
   - {fileID: 227977464}
   - {fileID: 548879623}
-  - {fileID: 1626150115}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -790,107 +785,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1626150111
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1626150115}
-  - component: {fileID: 1626150114}
-  - component: {fileID: 1626150113}
-  - component: {fileID: 1626150112}
-  m_Layer: 5
-  m_Name: 3. Teks Pidato Ketiga
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1626150112
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626150111}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1626150113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626150111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 55
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1626150114
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626150111}
-  m_CullTransparentMesh: 1
---- !u!224 &1626150115
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626150111}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 803588571}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -9}
-  m_SizeDelta: {x: 882.5227, y: 186.8705}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
