@@ -5,7 +5,7 @@ using UnityEngine;
 public class bullet_p : MonoBehaviour
 {
     public float bulletSpeed;
-    public string tagCollide;
+    public string tagCollide { get; set;}
     public float damage { get; set;} //bisa diset pada playerShoot_p.cs
     [SerializeField]private float lifeTime;
     private Rigidbody2D rb;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerShoot_p : MonoBehaviour
+public class teamShoot_p : MonoBehaviour
 {
     [SerializeField]private GameObject bulletPrefab;
     [SerializeField]private Transform firePoint;
@@ -12,12 +12,12 @@ public class playerShoot_p : MonoBehaviour
     private float timer;
     public float damage;
 
-    public string playerdamage;
+    public string teamdamage;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.J) && timer <= 0f){
+        if(timer <= 0f){
             Shoot();
             timer = fireRate;
         }
@@ -30,6 +30,6 @@ public class playerShoot_p : MonoBehaviour
     private void Shoot(){
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<bullet_p>().damage = damage;
-        bullet.GetComponent<bullet_p>().tagCollide = playerdamage;
+        bullet.GetComponent<bullet_p>().tagCollide = teamdamage;
     }
 }

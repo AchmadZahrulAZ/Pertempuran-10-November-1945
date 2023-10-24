@@ -22,10 +22,10 @@ public class healthSystem : MonoBehaviour
                 Destroy(gameObject);
             }
 
-            //gunakan nanti saat enemy bisa menyerang 
-            // else if(gameObject.tag == "Player"){
-            //     Destroy(gameObject);
-            // }
+
+            else if(gameObject.tag == "Player"){
+                Destroy(gameObject);
+            }
         }
     }
 }
