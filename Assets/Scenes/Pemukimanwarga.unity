@@ -10123,7 +10123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60571c00309fdef49bd088b0d80771fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   animator: {fileID: 856175022}
 --- !u!212 &856175025
 SpriteRenderer:
