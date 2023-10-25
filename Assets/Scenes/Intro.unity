@@ -600,7 +600,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Pertempuran Tiga Hari di Surabaya \n\nmenyebabkan Brigjen AWS Mallaby
-    gugur dalam medan perang "
+    gugur dalam medan perang... "
 --- !u!222 &1792047733
 CanvasRenderer:
   m_ObjectHideFlags: 0
