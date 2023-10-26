@@ -110,7 +110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 10
-  tagCollide: Enemy
   lifeTime: 3
 --- !u!1 &3956502407741782530
 GameObject:
