@@ -27,7 +27,7 @@ public class APIManager : MonoBehaviour
     public Account account { get; private set; }
     //public string previousAccessToken { get; private set;} //Subject to change, whether the API should be able to read the previous access token or not
     //const string FILENAME = "/meta.dat";
-    public const int ID_GAME = 4; //Don Bosco's ID in the database is 2
+    public const int ID_GAME = 4; //Pertempuran 10 November 1945's ID in the database is 4
 
 
     void Awake()
