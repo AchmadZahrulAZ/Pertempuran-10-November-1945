@@ -797,9 +797,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Anda telah memainkan
+  m_Text: 'Anda telah memainkan gim
 
-    Hotel Yamato'
+    Pertempuran 3 Hari Surabaya'
 --- !u!222 &1768643124
 CanvasRenderer:
   m_ObjectHideFlags: 0
