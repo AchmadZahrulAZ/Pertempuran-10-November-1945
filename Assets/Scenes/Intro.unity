@@ -342,9 +342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   executeOnStart: 1
   requiredEvents:
-  - id_game: 1
-    id_log: 0
-    no_event: 1
+  - id_game: 3
+    id_log: 1
+    no_event: 8
     status: 2
   onRequirementFulfilled:
     m_PersistentCalls:
