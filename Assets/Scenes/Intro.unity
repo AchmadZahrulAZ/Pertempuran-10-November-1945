@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 1440593013}
   - component: {fileID: 1440593014}
   m_Layer: 5
-  m_Name: === Sequel Yamato ===
+  m_Name: === Prequel Pertempuran 3 Hari Surabaya ===
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 1768643123}
   - component: {fileID: 1768643122}
   m_Layer: 5
-  m_Name: 1. Teks intro
+  m_Name: 1. Teks intro login dan sudah bermain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
