@@ -6,37 +6,43 @@ using UnityEngine.UI;
 
 public class Mainmenu : MonoBehaviour
 {
-    [Header("Menu Buttons")]
 
-    [SerializeField] private Button newGameButton;
-
-    [SerializeField] private Button continueGameButton;
-
-    private void Start()
+    public Button ContinueButton;
+    // Start is called before the first frame update
+    void Start()
     {
-        if (!DataPersistenceManager.instance.HasGameData())
+        GameData data = SaveManager.instance.LoadSceneData();
+        if (data != null)
         {
-            continueGameButton.interactable = false;
+            ContinueButton.interactable = true;
         }
+        else
+        {
+            ContinueButton.interactable = false;
+        }        
     }
 
     public void PlayGame()
     {
-        DisableMenuButtons();
-        // create a new game - which will initialize our game data
-        DataPersistenceManager.instance.NewGame();
-        // Load the gameplay scene - which will in turn save the game because of
-        // OnSceneUnloaded() in the DataPersistenceManager
-        SceneManager.LoadSceneAsync("Intro");
-        //SceneManager.LoadScene("Intro", LoadSceneMode.Single);
+        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
     }
 
     public void ContinueGame()
     {
-        DisableMenuButtons();
-        // Load the gameplay scene - which will in turn save the game because of
-        // OnSceneUnloaded() in the DataPersistenceManager
-        SceneManager.LoadSceneAsync("Intro");
+        LoadSceneData();
+    }
+
+    private void LoadSceneData()
+    {
+        GameData data = SaveManager.instance.LoadSceneData();
+        if (data != null)
+        {
+            SceneManager.LoadScene(data.sceneName);
+        }
+        else
+        {
+            Debug.LogWarning("No save data found.");
+        }
     }
 
     public void TutorialGame()
@@ -47,11 +53,5 @@ public class Mainmenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-    }
-
-    private void DisableMenuButtons()
-    {
-        newGameButton.interactable = false;
-        continueGameButton.interactable = false;
     }
 }
