@@ -1594,6 +1594,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1052397288}
+  - component: {fileID: 1052397289}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1613,10 +1614,22 @@ Transform:
   m_LocalPosition: {x: 972.47064, y: 520.1569, z: 5.953056}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1114933677}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1052397289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052397287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2663a149c3d1fe14f89defe893d8d892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContinueButton: {fileID: 1592033531}
 --- !u!1 &1064590246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,8 +1848,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1114933677}
+  - component: {fileID: 1114933678}
   m_Layer: 0
-  m_Name: DataPersistenceManager
+  m_Name: SaveManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1850,13 +1864,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114933676}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 972.47064, y: 520.1569, z: 5.953056}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1052397288}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1114933678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114933676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee359471afbe0214cb579d9ea4781a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Game.Data
+  currentAccountID: 
 --- !u!1 &1197918517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,9 +2620,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 383557866}
+      - m_Target: {fileID: 1052397289}
         m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2985,9 +3013,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 2663a149c3d1fe14f89defe893d8d892, type: 3}
+      - m_Target: {fileID: 1052397289}
         m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ContinueGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3520,7 +3548,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1052397289}
         m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -4096,7 +4124,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1052397289}
         m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: TutorialGame
         m_Mode: 1
@@ -4671,3 +4699,4 @@ SceneRoots:
   - {fileID: 436833322}
   - {fileID: 1315588259}
   - {fileID: 1052397288}
+  - {fileID: 1114933677}
