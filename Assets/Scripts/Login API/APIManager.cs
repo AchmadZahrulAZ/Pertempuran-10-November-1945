@@ -23,6 +23,8 @@ public class APIManager : MonoBehaviour
 
     private static APIManager instance;
     public static APIManager Instance { get { return instance; } }
+
+    //public static string baseURL = "https://mtsnuhati.com/sigamingclub/api/inc/";
     public static string baseURL = "http://localhost:3000/api/";
     public Account account { get; private set; }
     //public string previousAccessToken { get; private set;} //Subject to change, whether the API should be able to read the previous access token or not
