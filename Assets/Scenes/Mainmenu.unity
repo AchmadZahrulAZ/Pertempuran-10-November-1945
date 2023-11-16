@@ -2099,6 +2099,7 @@ MonoBehaviour:
   loginButton: {fileID: 1007348273}
   logoutButton: {fileID: 309595566}
   usernameText: {fileID: 1345202923}
+  statusModal: {fileID: 285948184}
   statusBG: {fileID: 561020605}
   statusText: {fileID: 1729881260}
 --- !u!4 &1315588259
@@ -3548,9 +3549,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1052397289}
-        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 1315588258}
+        m_TargetAssemblyTypeName: APIManager, Assembly-CSharp
+        m_MethodName: OnQuitGameButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
