@@ -43,6 +43,10 @@ public class Account
         {
             foreach(EventLog log in logs)
             {
+                if(log.id_game == APIManager.ID_GAME)
+                {
+                    continue;
+                }
                 eventLogDict[new GameEvent(log.id_game, log.no_event)] = log;
             }
         }
@@ -93,8 +97,8 @@ public class EventLog
     /// <summary>
     /// Constructor for GET request
     /// </summary>
-    /// <param name="no_event"></param>
-    /// <param name="status"></param>
+    // <param name="no_event"></param>
+    // <param name="status"></param>
     public EventLog(int id_game, int no_event, EventStatus status)
     {
         this.id_game = id_game;
