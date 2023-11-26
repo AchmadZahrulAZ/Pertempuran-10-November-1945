@@ -50,6 +50,11 @@ public class Mainmenu : MonoBehaviour
         SceneManager.LoadScene("Tutorial", LoadSceneMode.Single);
     }
 
+    public void CreditGame()
+    {
+        SceneManager.LoadScene("Credit", LoadSceneMode.Single);
+    }
+
     public void QuitGame()
     {
         Application.Quit();
