@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: walking-side-no-gun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b34f90ee3c9574ba0700930eaf01bb
+      internalID: -1795327687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb381b05da60434383251edcf674579
+      internalID: 774301289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40f230e0602d084086917c2b47040e2
+      internalID: 1145713168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4230ca73de70e4090a7d648c206df1
+      internalID: -1482423796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4dda0452f30ba4f8d54a04c515093c
+      internalID: -356367131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d5951c445705f4db2554a4db27ce9e
+      internalID: -1837310807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed66639499666d4b80bd94161a2680d
+      internalID: 679186200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_7
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf877f65835d6f4baaa0f4f5b666124
+      internalID: 1312895705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_8
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa3c26cfb29f5a4899e0a4d93330a3d
+      internalID: -577183319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_9
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62789a6bf87cb0d41b7a7c568f27174f
+      internalID: -1244306732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_10
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3ca92188d618d4bbeac0437f450e3e
+      internalID: -479751520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_11
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8fa7525fb97e8479aec45ff2637b60
+      internalID: -1673696106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_12
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755ed4fc05a1fc84e8791bfbc04a6541
+      internalID: -1676780495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_13
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97476039cc5d2424086b5d200f6150d6
+      internalID: 712063777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_14
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5130365c7f38e0c4bb9d57da511c4121
+      internalID: 1955952388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_15
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484cf394ae84ac04db253a47f4d512b8
+      internalID: -2060242704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_16
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d33954f7e34f04093e8ea9b3de5519
+      internalID: 1188084193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_17
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528c47df511e82441a558635ad2bf4d4
+      internalID: 223095771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_18
+      rect:
+        serializedVersion: 2
+        x: 4716
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf20d849b6e9a240bc1da339fce487a
+      internalID: 1376312772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking-side-no-gun_19
+      rect:
+        serializedVersion: 2
+        x: 4978
+        y: 0
+        width: 262
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fafd0aea7ac8d84ea1a979281ac3c4a
+      internalID: -1288486306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +552,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      walking-side-no-gun_0: -1795327687
+      walking-side-no-gun_1: 774301289
+      walking-side-no-gun_10: -479751520
+      walking-side-no-gun_11: -1673696106
+      walking-side-no-gun_12: -1676780495
+      walking-side-no-gun_13: 712063777
+      walking-side-no-gun_14: 1955952388
+      walking-side-no-gun_15: -2060242704
+      walking-side-no-gun_16: 1188084193
+      walking-side-no-gun_17: 223095771
+      walking-side-no-gun_18: 1376312772
+      walking-side-no-gun_19: -1288486306
+      walking-side-no-gun_2: 1145713168
+      walking-side-no-gun_3: -1482423796
+      walking-side-no-gun_4: -356367131
+      walking-side-no-gun_5: -1837310807
+      walking-side-no-gun_6: 679186200
+      walking-side-no-gun_7: 1312895705
+      walking-side-no-gun_8: -577183319
+      walking-side-no-gun_9: -1244306732
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -18,7 +18,7 @@ public class Account
         this.username = username;
         this.nama_player = nama_player;
 
-        // //dummy (id_game 1 = Hotel Yamato)
+        // //dummy (id_game 3 = Pertempuran 10 November 1945)
         // eventLogs = new EventLog[3];
         // eventLogs[0] = new EventLog(1, 1, EventStatus.selesai);
         // eventLogs[1] = new EventLog(1, 2, EventStatus.selesai);
