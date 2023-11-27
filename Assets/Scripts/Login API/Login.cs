@@ -193,10 +193,12 @@ public class Login : MonoBehaviour
     /// <returns></returns>
     private IEnumerator PostGameLog()
     {
+        string savedLoginTime = PlayerPrefs.GetString("LoginTime", "");
+        EventLog[] arrEvent = APIManager.Instance.account.getValueFromDict();
         List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
         formData.Add(new MultipartFormDataSection("id_game", APIManager.ID_GAME.ToString()));
         formData.Add(new MultipartFormDataSection("id_player", APIManager.Instance.account.id_player));
-        formData.Add(new MultipartFormDataSection("waktu_mulai", loginTime));
+        formData.Add(new MultipartFormDataSection("waktu_mulai", savedLoginTime));
         formData.Add(new MultipartFormDataSection("waktu_entry", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")));
 
         UnityWebRequest www = UnityWebRequest.Post(APIManager.baseURL + "create_loggame.php", formData);

@@ -63,6 +63,18 @@ public class Account
             return false;
         }
     }
+
+    public EventLog[] getValueFromDict(){
+        List<EventLog> arr = new List<EventLog>();
+        foreach(EventLog log in eventLogDict.Values)
+        {
+            if(log.id_game == APIManager.ID_GAME)
+            {
+                arr.Add(log);
+            }
+        }
+        return arr.ToArray();
+    }
 }
 
 
