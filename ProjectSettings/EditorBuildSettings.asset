@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credit.unity
     guid: bff0607438657c04796d5f4ba255e0ee
+  - enabled: 1
+    path: Assets/Scenes/Pertempuran_nogun.unity
+    guid: b20235b9c31355c4d94343a91e3fbdd3
   m_configObjects: {}
