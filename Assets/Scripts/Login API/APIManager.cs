@@ -15,6 +15,7 @@ public class APIManager : MonoBehaviour
     const string FILENAME = "meta.dat";
     public const int ID_GAME = 3; //Pertempuran 10 November 1945's ID in the database is 1
 
+    public string loginTime;
 
     void Awake()
     {
@@ -40,4 +41,6 @@ public class APIManager : MonoBehaviour
         //     WriteData("");
         // }
     }
+
+    
 }

@@ -22,7 +22,7 @@ public class Login : MonoBehaviour
     const string continueText = "\n(Press To Continue...)";
     private bool isLogged = false;
     private bool isQuitting = false;
-    string loginTime;
+    
 
     private void Start() 
     {
@@ -162,7 +162,7 @@ public class Login : MonoBehaviour
             usernameText.text = "User " + account.username;
 
             // Track login time for 'waktu_mulai' in game_log
-            loginTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            APIManager.Instance.loginTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
             yield return new WaitForSeconds(1f);
         }
@@ -193,12 +193,11 @@ public class Login : MonoBehaviour
     /// <returns></returns>
     private IEnumerator PostGameLog()
     {
-        string savedLoginTime = PlayerPrefs.GetString("LoginTime", "");
         EventLog[] arrEvent = APIManager.Instance.account.getValueFromDict();
         List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
         formData.Add(new MultipartFormDataSection("id_game", APIManager.ID_GAME.ToString()));
         formData.Add(new MultipartFormDataSection("id_player", APIManager.Instance.account.id_player));
-        formData.Add(new MultipartFormDataSection("waktu_mulai", savedLoginTime));
+        formData.Add(new MultipartFormDataSection("waktu_mulai", APIManager.Instance.loginTime));
         formData.Add(new MultipartFormDataSection("waktu_entry", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")));
 
         UnityWebRequest www = UnityWebRequest.Post(APIManager.baseURL + "create_loggame.php", formData);

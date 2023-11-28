@@ -43,10 +43,10 @@ public class Account
         {
             foreach(EventLog log in logs)
             {
-                if(log.id_game == APIManager.ID_GAME)
-                {
-                    continue;
-                }
+                // if(log.id_game == APIManager.ID_GAME)
+                // {
+                //     //continue;
+                // }
                 eventLogDict[new GameEvent(log.id_game, log.no_event)] = log;
             }
         }
@@ -86,6 +86,10 @@ public class Account
 
     public void updateEvent(GameEvent gameEvent, EventStatus status)
     {
+        if(APIManager.Instance.account == null)
+        {
+            return;
+        }
         if(eventLogDict.ContainsKey(gameEvent))
         {
             eventLogDict[gameEvent].status = status;
