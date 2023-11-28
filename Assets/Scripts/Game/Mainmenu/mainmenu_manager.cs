@@ -25,6 +25,10 @@ public class Mainmenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("Intro", LoadSceneMode.Single);
+        if(APIManager.Instance.account != null)
+        {
+            APIManager.Instance.account.setEventNewAccount();
+        }
     }
 
     public void ContinueGame()

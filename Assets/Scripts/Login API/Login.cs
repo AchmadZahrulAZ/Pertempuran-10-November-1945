@@ -218,7 +218,7 @@ public class Login : MonoBehaviour
 
             // Post the game event log to the server
 
-            // StartCoroutine(GameEventLogRequest(QuestManager.Instance.GetQuestEventsLog(), gameLog.id_log));
+            StartCoroutine(GameEventLogRequest(arrEvent, gameLog.id_log));
         }
         else
         {
@@ -236,7 +236,7 @@ public class Login : MonoBehaviour
     /// <returns></returns>
     /// SUBJECT TO CHANGE, Sementara kurang lebih seperti ini
     /// Iki gk efisien dadi haruse diubah, tapi haruse gk digae tiap request dipost dewe-dewe koyok ngene. Iki meloki ferry
-    private IEnumerator GameEventLogRequest(List<EventLog> eventLogs, int id_log)
+    private IEnumerator GameEventLogRequest(EventLog[] eventLogs, int id_log)
     {
         List<UnityWebRequest> wwws = new List<UnityWebRequest>();
         foreach(EventLog log in eventLogs)

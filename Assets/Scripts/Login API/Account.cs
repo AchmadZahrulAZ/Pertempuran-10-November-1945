@@ -52,6 +52,46 @@ public class Account
         }
     }
 
+    public void setEventNewAccount()
+    {
+        eventLogs = new EventLog[5];
+        eventLogs[0] = new EventLog(APIManager.ID_GAME, 1, EventStatus.belum);
+        eventLogs[1] = new EventLog(APIManager.ID_GAME, 2, EventStatus.belum);
+        eventLogs[2] = new EventLog(APIManager.ID_GAME, 3, EventStatus.belum);
+        eventLogs[3] = new EventLog(APIManager.ID_GAME, 4, EventStatus.belum);
+        eventLogs[4] = new EventLog(APIManager.ID_GAME, 5, EventStatus.belum);
+        
+        // Delete all event log with id_game = APIManager.Instance.ID_GAME
+        List<GameEvent> eventToRemove = new List<GameEvent>();
+        foreach(EventLog log in eventLogDict.Values)
+        {
+            if(log.id_game == APIManager.ID_GAME)
+            {
+                eventToRemove.Add(new GameEvent(log.id_game, log.no_event));
+            }
+        }
+        foreach(GameEvent gameEvent in eventToRemove)
+        {
+            eventLogDict.Remove(gameEvent);
+        }
+
+        // Add new event log
+        foreach(EventLog log in eventLogs)
+        {
+            eventLogDict.Add(new GameEvent(log.id_game, log.no_event), log);
+        }
+
+        Debug.Log("Event log dict count: " + eventLogDict.Count);
+    }
+
+    public void updateEvent(GameEvent gameEvent, EventStatus status)
+    {
+        if(eventLogDict.ContainsKey(gameEvent))
+        {
+            eventLogDict[gameEvent].status = status;
+        }
+    }
+
     public bool CheckEventLog(GameEvent gameEvent, EventStatus status)
     {
         if(eventLogDict.ContainsKey(gameEvent))
