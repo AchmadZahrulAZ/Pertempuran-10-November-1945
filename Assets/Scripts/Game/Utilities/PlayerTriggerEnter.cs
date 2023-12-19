@@ -12,8 +12,6 @@ public class PlayerTriggerEnter : MonoBehaviour
     private bool playerEntered = false;
     private GameObject textMessage;
 
-
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -32,20 +30,16 @@ public class PlayerTriggerEnter : MonoBehaviour
         }
     }
 
-
-
     void Update()
     {
         if (playerEntered)
         {
-            // Ganti KeyCode.E karo tombol sing mbok karepno
             if(Input.GetKeyDown(KeyCode.F))
             {
                 onPlayerEnter?.Invoke();
             }
         }
     }
-
 
     private void SpawnTextMessage()
     {

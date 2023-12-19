@@ -30,7 +30,6 @@ public class Login : MonoBehaviour
         //PlayerPrefs.GetString("LoginTime", "");
     }
 
-
     private void checkedLogin()
     {
         if(APIManager.Instance.account != null)
@@ -52,9 +51,7 @@ public class Login : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Called when the login button is clicked and proccess the login form
-    /// </summary>
     public void OnLoginButtonClicked()
     {
         statusText.text = "Logging in...";
@@ -81,20 +78,7 @@ public class Login : MonoBehaviour
         return www;
     }
 
-    // private UnityWebRequest AutoLoginRequest()
-    // {
-    //     List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
-    //     formData.Add(new MultipartFormDataSection("accessToken", APIManager.Instance.previousAccessToken));
-
-    //     UnityWebRequest www = UnityWebRequest.Post(APIManager.baseURL + "login", formData);
-
-    //     return www;
-    // }
-
-    /// <summary>
     /// Post the login request to the server and wait for the response
-    /// </summary>
-    /// <param name="www">Form request to POST</param>
     private IEnumerator PostLoginRequest(UnityWebRequest www)
     {
         yield return www.SendWebRequest();
@@ -121,9 +105,7 @@ public class Login : MonoBehaviour
                 statusText.text += continueText;
                 statusBG.raycastTarget = true;
             }
-            // //dummy
-            // Account account = new Account("dummy", "dummy", "dummy");
-            // SetAccount(account);
+
         }
         else
         {
@@ -141,7 +123,6 @@ public class Login : MonoBehaviour
             string stringPayload = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(Base64StringValidator(payload)));
             LoginPayload loginPayload = JsonUtility.FromJson<LoginPayload>(stringPayload);
 
-
             // //Convert JSON string to Account object
             Account account = new Account(loginPayload.data.id_player, loginPayload.data.username, loginPayload.data.nama_player);
             account.SetEventLog(loginCallback.playerprogression);
@@ -151,10 +132,6 @@ public class Login : MonoBehaviour
             statusText.text += continueText;
             statusBG.raycastTarget = true;
 
-            // Try to read save data specific to the account (locally)
-            // SaveManager.Instance.ReadSaveDataAccount(account.id);
-            // SaveManager.Instance.currentAccountID = account.id;
-            // MainMenuManager.Instance.CheckProgress(); //Refresh Main menu continue progress button
             isLogged = true;
             SwitchButton();
 
@@ -169,10 +146,9 @@ public class Login : MonoBehaviour
     }
 
     #region Logout
-    /// <summary>
+
     /// Called when the logout button is clicked and proccess the logout.
     /// (p.s: Add a new event to Activate the status message modal GameObject in the Button's OnClick() event)
-    /// </summary>
     public void OnLogoutButtonClicked()
     {
         StartCoroutine(PostGameLog());
@@ -187,10 +163,7 @@ public class Login : MonoBehaviour
         APIManager.Instance.SetAccount(null);
     }
 
-    /// <summary>
     /// Post the game log to the server when the player logs out
-    /// </summary>
-    /// <returns></returns>
     private IEnumerator PostGameLog()
     {
         EventLog[] arrEvent = APIManager.Instance.account.getValueFromDict();
@@ -206,7 +179,6 @@ public class Login : MonoBehaviour
 
         // If the request is successful, read the response as JSON string
         // Here we assume that the server will return a log_id as a response that will be used to post the game event log
-        // SUBJECT TO CHANGE, Sementara kurang lebih seperti ini
         if(www.result == UnityWebRequest.Result.Success)
         {
             string json = www.downloadHandler.text; //get the response as JSON string
@@ -216,7 +188,6 @@ public class Login : MonoBehaviour
             Debug.Log("Game log posted! ID: " + gameLog.id_log);
 
             // Post the game event log to the server
-
             StartCoroutine(GameEventLogRequest(arrEvent, gameLog.id_log));
         }
         else
@@ -228,13 +199,6 @@ public class Login : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Post the game event log to the server when the player logs out
-    /// </summary>
-    /// <param name="eventLogs"></param>
-    /// <returns></returns>
-    /// SUBJECT TO CHANGE, Sementara kurang lebih seperti ini
-    /// Iki gk efisien dadi haruse diubah, tapi haruse gk digae tiap request dipost dewe-dewe koyok ngene. Iki meloki ferry
     private IEnumerator GameEventLogRequest(EventLog[] eventLogs, int id_log)
     {
         List<UnityWebRequest> wwws = new List<UnityWebRequest>();
@@ -260,20 +224,15 @@ public class Login : MonoBehaviour
     }
     #endregion
 
-
-    /// <summary>
     /// Switch the login and logout button active state
-    /// </summary>
+
     private void SwitchButton()
     {
         loginButton.SetActive(!isLogged);
         logoutButton.SetActive(isLogged);
     }
-    /// <summary>
+
     /// Handle quit game button, logout the player if they are logged in and post the game log
-    /// </summary>
-    /// <param name="base64String"></param>
-    /// <returns></returns>
     public void OnQuitGameButtonClicked()
     {
         isQuitting = true;
@@ -301,7 +260,6 @@ public class Login : MonoBehaviour
         }
     }
 
-
     #region Utility
     private string Base64StringValidator(string base64String)
     {
@@ -313,7 +271,6 @@ public class Login : MonoBehaviour
     }
     #endregion
 }
-
 
 #region Logout
 [Serializable]
@@ -338,8 +295,6 @@ public class GameLogCallback
 }
 #endregion
 
-
-
 #region Login
 [Serializable]
 public class LoginCallback
@@ -356,12 +311,6 @@ public class LoginCallback
         this.token = jwtToken;
         this.playerprogression = playerprogression;
     }
-
-    // public LoginCallback(int status, string message)
-    // {
-    //     this.status = status;
-    //     this.message = message;
-    // }
 }
 
 [Serializable]
@@ -380,7 +329,6 @@ public class LoginPayload
         this.data = data;
     }
 
-
     [Serializable]
     public class LoginData
     {
@@ -394,7 +342,6 @@ public class LoginPayload
             this.nama_player = nama_player;
             this.username = username;
         }
-
     }
 }
 #endregion
