@@ -12,7 +12,6 @@ public class QuizUIQuestion : MonoBehaviour
 
     public void SetQuestion(Quiz quiz, int playerAnswer)
     {
-        Debug.Log($"PlayerAnswer: {playerAnswer}, quizAnswersLength:{quiz.answers.Length}");
         leftText.text = quiz.question;
         if(playerAnswer == quiz.correctAnswer)
         {
@@ -24,6 +23,6 @@ public class QuizUIQuestion : MonoBehaviour
             leftText.text += "\n<color=#841F2C>";
             rightText.text = $"<color=#841F2C> 0";
         }
-        leftText.text += quiz.answers[playerAnswer];
+        leftText.text += quiz.answers[playerAnswer-1];
     }
 }

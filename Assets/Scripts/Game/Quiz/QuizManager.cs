@@ -7,7 +7,7 @@ public class QuizManager : MonoBehaviour
     private static QuizManager instance;
     public static QuizManager Instance {get => instance;}
     [SerializeField] public Quiz[] quizzes;
-    [HideInInspector] public int[] answers;
+    public int[] answers;
 
     void Awake()
     {

@@ -34,10 +34,10 @@ RectTransform:
   - {fileID: 6221814120611877878}
   m_Father: {fileID: 8787547879304762813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 422.5, y: -112.5}
+  m_SizeDelta: {x: 845, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &284234336128585699
 CanvasRenderer:
@@ -120,7 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5844421737870516441}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1729565146167067131}
+        m_TargetAssemblyTypeName: QuizAgent, Assembly-CSharp
+        m_MethodName: AnswerQuiz
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &764128304431770960
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,10 +307,10 @@ RectTransform:
   - {fileID: 2607448893548013754}
   m_Father: {fileID: 8787547879304762813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1367.5, y: -112.5}
+  m_SizeDelta: {x: 845, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6227901358875101367
 CanvasRenderer:
@@ -381,7 +393,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5923936761268721749}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1729565146167067131}
+        m_TargetAssemblyTypeName: QuizAgent, Assembly-CSharp
+        m_MethodName: AnswerQuiz
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2990159732585729030
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +441,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -40, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5415310613030657314
 CanvasRenderer:
@@ -447,7 +471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: jawab
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -475,10 +499,10 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 72
-  m_fontSizeBase: 61.3
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 72
+  m_fontSizeMin: 35
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -551,7 +575,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -40, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2594744138749166179
 CanvasRenderer:
@@ -581,7 +605,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: jawab
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -609,10 +633,10 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 72
-  m_fontSizeBase: 61.3
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 72
+  m_fontSizeMin: 35
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -685,7 +709,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -40, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2635711928170694627
 CanvasRenderer:
@@ -715,7 +739,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: jawab
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -743,10 +767,10 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 72
-  m_fontSizeBase: 61.3
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 72
+  m_fontSizeMin: 35
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -930,10 +954,10 @@ RectTransform:
   - {fileID: 7323505944844502836}
   m_Father: {fileID: 8787547879304762813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 422.5, y: -337.5}
+  m_SizeDelta: {x: 845, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6519882910934398426
 CanvasRenderer:
@@ -1016,7 +1040,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1132827460246930083}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1729565146167067131}
+        m_TargetAssemblyTypeName: QuizAgent, Assembly-CSharp
+        m_MethodName: AnswerQuiz
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8498949752198254600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,10 +1221,10 @@ RectTransform:
   - {fileID: 1109057412957204235}
   m_Father: {fileID: 8787547879304762813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1367.5, y: -337.5}
+  m_SizeDelta: {x: 845, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &218997431662039569
 CanvasRenderer:
@@ -1271,7 +1307,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8775534758192674704}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1729565146167067131}
+        m_TargetAssemblyTypeName: QuizAgent, Assembly-CSharp
+        m_MethodName: AnswerQuiz
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9011971770334784585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1355,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -40, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5152231392362428008
 CanvasRenderer:
@@ -1337,7 +1385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: jawab
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1365,10 +1413,10 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 72
-  m_fontSizeBase: 61.3
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 72
+  m_fontSizeMin: 35
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2

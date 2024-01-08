@@ -1407,13 +1407,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizzes:
-  - question: Apa kamu
+  - question: Siapakah tokoh sekutu yang gugur pada Pertempuran 3 hari Surabaya?
     answers:
-    - Ya
-    - Tidak
-    - Ga tau
-    - Y
+    - Jenderal Robert Mansergh
+    - Brigadir Jenderal Aubertin Walter Sothern(AWS) Mallaby
+    - Jenderal Sir Philip Christison
+    - Jenderal Simon Hendrik Spoor
     correctAnswer: 2
+    score: 20
+  - question: Siapakah Jenderal yang menggantikan gugurnya posisi Brigadir Jenderal
+      Aubertin Walter Sothern(AWS) Mallaby di Surabaya?
+    answers:
+    - Jenderal Sir Philip Christison
+    - Jenderal Simon Hendrik Spoor
+    - Jenderal Robert Mansergh
+    - Gubernur Jenderal Louis Mountbatten
+    correctAnswer: 3
+    score: 20
+  - question: Apa yang membuat warga surabaya panik pada tanggal 09 November 1945?
+    answers:
+    - Penyerangan tentara sekutu
+    - Penyerangan tentara jepang
+    - Perampasan senjata perang
+    - Penyebaran pamflet ultimatum
+    correctAnswer: 4
+    score: 20
+  - question: Siapakah tokoh yang melakukan orasi/pidato untuk membakar semangat
+      warga Surabaya melawan sekutu?
+    answers:
+    - Bung Tomo(Sutomo)
+    - Mayor Jenderal TNI Soengkono
+    - Mayor Jenderal TNI Moestopo
+    - Gubernur Suryo(Ario Soerjo)
+    correctAnswer: 1
     score: 20
   answers: 
 --- !u!4 &576841711

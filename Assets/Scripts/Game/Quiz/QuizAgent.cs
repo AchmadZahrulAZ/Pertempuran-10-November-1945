@@ -30,12 +30,12 @@ public class QuizAgent : MonoBehaviour
         for(int i=0; i < quiz.answers.Length; i++)
         {
             answerButton[i].GetComponentInChildren<TMP_Text>().text = quiz.answers[i];
-            answerButton[i].onClick.AddListener(() => AnswerQuiz(i));
+            //answerButton[i].onClick.AddListener(() => AnswerQuiz(i));
         }
     }
 
 
-    private void AnswerQuiz(int answer)
+    public void AnswerQuiz(int answer)
     {
         QuizManager.Instance.answers[quizIndex] = answer;
 
