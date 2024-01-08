@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextSceneLoader11 : MonoBehaviour
+public class NextSceneLoader12 : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("Statistik", LoadSceneMode.Single);
+        SceneManager.LoadScene("Mainmenu", LoadSceneMode.Single);
     }
 }

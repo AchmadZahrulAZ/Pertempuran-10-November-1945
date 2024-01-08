@@ -29,7 +29,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Home()
     {
-        GameData data = new GameData(sceneName, sceneIndex);
+        GameData data = new GameData(sceneName, sceneIndex, QuizManager.Instance.answers);
         SaveManager.instance.SaveSceneData(data);
         Time.timeScale = 1f;
         SceneManager.LoadScene("Mainmenu", LoadSceneMode.Single);

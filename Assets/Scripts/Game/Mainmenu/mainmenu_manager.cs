@@ -42,6 +42,7 @@ public class Mainmenu : MonoBehaviour
         if (data != null)
         {
             SceneManager.LoadScene(data.sceneName);
+            QuizManager.Instance.answers = data.answeredQuestions;
         }
         else
         {

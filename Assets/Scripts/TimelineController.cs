@@ -26,10 +26,7 @@ public class TimelineController : MonoBehaviour
         if(playOnStart)
         {
             // Play the timeline if the director is not already playing
-            if (!director.playableGraph.IsPlaying())
-            {
-                director.Play();
-            }
+            director.Play();
         }
     }
 }

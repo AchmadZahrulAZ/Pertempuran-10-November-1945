@@ -7,10 +7,12 @@ public class GameData
 {
     public string sceneName;
     public int sceneIndex;
+    public int[] answeredQuestions;
 
-    public GameData(string name, int index)
+    public GameData(string name, int index, int[] answeredQuestions)
     {
         sceneName = name;
         sceneIndex = index;
+        this.answeredQuestions = answeredQuestions;
     }
 }
