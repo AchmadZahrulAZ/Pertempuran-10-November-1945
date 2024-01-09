@@ -1414,7 +1414,7 @@ MonoBehaviour:
     - Jenderal Sir Philip Christison
     - Jenderal Simon Hendrik Spoor
     correctAnswer: 2
-    score: 20
+    score: 25
   - question: Siapakah Jenderal yang menggantikan gugurnya posisi Brigadir Jenderal
       Aubertin Walter Sothern(AWS) Mallaby di Surabaya?
     answers:
@@ -1423,7 +1423,7 @@ MonoBehaviour:
     - Jenderal Robert Mansergh
     - Gubernur Jenderal Louis Mountbatten
     correctAnswer: 3
-    score: 20
+    score: 25
   - question: Apa yang membuat warga surabaya panik pada tanggal 09 November 1945?
     answers:
     - Penyerangan tentara sekutu
@@ -1431,7 +1431,7 @@ MonoBehaviour:
     - Perampasan senjata perang
     - Penyebaran pamflet ultimatum
     correctAnswer: 4
-    score: 20
+    score: 25
   - question: Siapakah tokoh yang melakukan orasi/pidato untuk membakar semangat
       warga Surabaya melawan sekutu?
     answers:
@@ -1440,7 +1440,7 @@ MonoBehaviour:
     - Mayor Jenderal TNI Moestopo
     - Gubernur Suryo(Ario Soerjo)
     correctAnswer: 1
-    score: 20
+    score: 25
   answers: 
 --- !u!4 &576841711
 Transform:
