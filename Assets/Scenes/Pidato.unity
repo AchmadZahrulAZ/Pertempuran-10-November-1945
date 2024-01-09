@@ -1348,8 +1348,6 @@ PlayableDirector:
     value: {fileID: 324573364}
   - key: {fileID: 2635194623601096615, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 353896312}
-  - key: {fileID: -4213907258123751463, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
-    value: {fileID: 353896312}
   - key: {fileID: 6832385627499680455, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
     value: {fileID: 324573363}
   - key: {fileID: -5829832298279347537, guid: 2c2155bf138a7d34682520d3ceb2d65c, type: 2}
@@ -1465,16 +1463,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1819479011}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &1658210516
 GameObject:
@@ -1586,6 +1584,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1466100729}
     m_Modifications:
+    - target: {fileID: 1729565146167067131, guid: 086437cff79de2b4cb0928cb6296efd4, type: 3}
+      propertyPath: quizIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729565146167067131, guid: 086437cff79de2b4cb0928cb6296efd4, type: 3}
+      propertyPath: onQuizDone.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 353896312}
     - target: {fileID: 4955611019869464480, guid: 086437cff79de2b4cb0928cb6296efd4, type: 3}
       propertyPath: m_Name
       value: QuizPanel
