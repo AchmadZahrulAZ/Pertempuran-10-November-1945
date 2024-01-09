@@ -352,6 +352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Team (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2359330846045734322, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
+      propertyPath: m_TagString
+      value: Team
+      objectReference: {fileID: 0}
     - target: {fileID: 4279331341713716670, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.876729
@@ -17681,6 +17685,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Team (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2359330846045734322, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
+      propertyPath: m_TagString
+      value: Team
+      objectReference: {fileID: 0}
     - target: {fileID: 4279331341713716670, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4177494
@@ -19120,6 +19128,10 @@ PrefabInstance:
     - target: {fileID: 2359330846045734322, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_Name
       value: Team (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2359330846045734322, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
+      propertyPath: m_TagString
+      value: Team
       objectReference: {fileID: 0}
     - target: {fileID: 4279331341713716670, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24151,18 +24163,22 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 373911328253398313, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_Color.b
-      value: 0.49019608
+      value: 0.9811321
       objectReference: {fileID: 0}
     - target: {fileID: 373911328253398313, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_Color.g
-      value: 0.7607843
+      value: 0.9811321
       objectReference: {fileID: 0}
     - target: {fileID: 373911328253398313, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_Color.r
-      value: 0.94509804
+      value: 0.9811321
       objectReference: {fileID: 0}
     - target: {fileID: 2359330846045734322, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_Name
+      value: Team
+      objectReference: {fileID: 0}
+    - target: {fileID: 2359330846045734322, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
+      propertyPath: m_TagString
       value: Team
       objectReference: {fileID: 0}
     - target: {fileID: 4279331341713716670, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
@@ -24204,6 +24220,10 @@ PrefabInstance:
     - target: {fileID: 4279331341713716670, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406170877141798626, guid: eb0255785a80a1b4e9898d18c1b2ab2d, type: 3}
+      propertyPath: m_TagString
+      value: Team
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

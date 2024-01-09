@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab876ae1f2e64b34498b79a57d1680c0
+guid: 70e70b3c2dba635429fec95ef3449b13
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_0
+      name: pasukan tentara jepang WALKING GUN_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da1780dce4347d40a742337b3a03d37
-      internalID: 1678678127
+      spriteID: f50efc0b6d7ea434caddccd47853a8f1
+      internalID: -802060530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_1
+      name: pasukan tentara jepang WALKING GUN_1
       rect:
         serializedVersion: 2
-        x: 194
+        x: 303
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da7f62313eb1abc42808424b7a9490df
-      internalID: 1090793735
+      spriteID: 820ed95bf1fc4234bafb6a597b04d8a1
+      internalID: -966872137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_2
+      name: pasukan tentara jepang WALKING GUN_2
       rect:
         serializedVersion: 2
-        x: 388
+        x: 606
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 507e4e73eeedfd444899cc5610821bcd
-      internalID: 86950074
+      spriteID: 4c2a478986a6e3c4bac53abb1216d1ae
+      internalID: -1511718086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_3
+      name: pasukan tentara jepang WALKING GUN_3
       rect:
         serializedVersion: 2
-        x: 582
+        x: 909
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0832e0c9a4df33418e18685a6f66fb9
-      internalID: 1499253741
+      spriteID: db918571491034647afc510614b8fe9f
+      internalID: 755263735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_4
+      name: pasukan tentara jepang WALKING GUN_4
       rect:
         serializedVersion: 2
-        x: 776
+        x: 1212
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3d20af4f20371b4c9334c3d1f1b155b
-      internalID: -39861779
+      spriteID: 01336172ff1a0374c95bcd3e5233d5d1
+      internalID: 1705877718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_5
+      name: pasukan tentara jepang WALKING GUN_5
       rect:
         serializedVersion: 2
-        x: 970
+        x: 1515
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4db99b14dbc1a7b4bbc02e1bd297646f
-      internalID: -547351125
+      spriteID: 44ea71e935ecf5c4d865aec0d9611e17
+      internalID: -2128283933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_6
+      name: pasukan tentara jepang WALKING GUN_6
       rect:
         serializedVersion: 2
-        x: 1164
+        x: 1818
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05e8abaeff2706040b90db58438ae941
-      internalID: -335989693
+      spriteID: 3283542b8e353664e9f03f81ac0878db
+      internalID: -219077741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_7
+      name: pasukan tentara jepang WALKING GUN_7
       rect:
         serializedVersion: 2
-        x: 1358
+        x: 2121
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb12f12d76004164aa86cdef51f78412
-      internalID: 1150873599
+      spriteID: 5f0dd72335d86f044a0f4c8d99e5b5ae
+      internalID: -1849490273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_8
+      name: pasukan tentara jepang WALKING GUN_8
       rect:
         serializedVersion: 2
-        x: 1552
+        x: 2424
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 948aa29bc4f745d40bc624cef5e1cb6e
-      internalID: 635920334
+      spriteID: 73e1e0ff2a14ffe4fa5fec2df0dcf481
+      internalID: -58575683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_9
+      name: pasukan tentara jepang WALKING GUN_9
       rect:
         serializedVersion: 2
-        x: 1746
+        x: 2727
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 447334bcd4f71134784ffc0323c5e183
-      internalID: 587843912
+      spriteID: ee4169401a70d4a459c093f60e8b433a
+      internalID: -925737434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_10
+      name: pasukan tentara jepang WALKING GUN_10
       rect:
         serializedVersion: 2
-        x: 1940
+        x: 3030
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e02ea23bcfb03241986fdc198df2382
-      internalID: 919860386
+      spriteID: 175f1ee763e922445a05761c50847936
+      internalID: 73370279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_11
+      name: pasukan tentara jepang WALKING GUN_11
       rect:
         serializedVersion: 2
-        x: 2134
+        x: 3333
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c6832623b027345bdbd015531b16c1
-      internalID: 566465904
+      spriteID: 2371940edcdf11242b9e8cb67b950bb5
+      internalID: 2140491170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_12
+      name: pasukan tentara jepang WALKING GUN_12
       rect:
         serializedVersion: 2
-        x: 2328
+        x: 3636
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5784f86672dfc241963c506497c5b78
-      internalID: -1171996237
+      spriteID: 48c9f0fc9f02b1346b18f859fce6a2d0
+      internalID: 47333660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_13
+      name: pasukan tentara jepang WALKING GUN_13
       rect:
         serializedVersion: 2
-        x: 2522
+        x: 3939
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af9926cdf856ae143ba87ac178cd382d
-      internalID: 533780133
+      spriteID: 61fa6d86efa47ec4e88d5d953423c0bc
+      internalID: 1931611477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_14
+      name: pasukan tentara jepang WALKING GUN_14
       rect:
         serializedVersion: 2
-        x: 2716
+        x: 4242
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c504dc1278d4e174c91032467e4e60a7
-      internalID: 1702458352
+      spriteID: 18ddc58f80e23874ba128c8a4d6c6207
+      internalID: -1196870218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_15
+      name: pasukan tentara jepang WALKING GUN_15
       rect:
         serializedVersion: 2
-        x: 2910
+        x: 4545
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f045bc1cefe5d5f4eb12bf308421363b
-      internalID: -638873677
+      spriteID: 299b888eac754894c8e409decf105569
+      internalID: -1939842752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_16
+      name: pasukan tentara jepang WALKING GUN_16
       rect:
         serializedVersion: 2
-        x: 3104
+        x: 4848
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 752ffa10b294d8649a0fc5d93ea513e9
-      internalID: 1342698038
+      spriteID: 88c247c2fed4d5042af2088928768b7e
+      internalID: -1349491161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_17
+      name: pasukan tentara jepang WALKING GUN_17
       rect:
         serializedVersion: 2
-        x: 3298
+        x: 5151
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f50fed5a81053b43ae6d20311994d56
-      internalID: -1907120701
+      spriteID: bf0f3d3d6f2f7bf4090aee05f36883e3
+      internalID: 95356254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_18
+      name: pasukan tentara jepang WALKING GUN_18
       rect:
         serializedVersion: 2
-        x: 3492
+        x: 5454
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a016f3e0e1562546af68ce31d5a399b
-      internalID: 568970810
+      spriteID: 2b63ab9e38a36df4eb91c77875aeadac
+      internalID: 865702296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arek surabaya wanita 2 WALKING_19
+      name: pasukan tentara jepang WALKING GUN_19
       rect:
         serializedVersion: 2
-        x: 3686
+        x: 5757
         y: 0
-        width: 194
-        height: 291
+        width: 303
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dcba0c8ecf7c154c94fd280e5cd24ed
-      internalID: -1539430172
+      spriteID: 5e132b54bc8c3b94d8ebae09094a913a
+      internalID: 466889907
       vertices: []
       indices: 
       edges: []
@@ -540,26 +540,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      arek surabaya wanita 2 WALKING_0: 1678678127
-      arek surabaya wanita 2 WALKING_1: 1090793735
-      arek surabaya wanita 2 WALKING_10: 919860386
-      arek surabaya wanita 2 WALKING_11: 566465904
-      arek surabaya wanita 2 WALKING_12: -1171996237
-      arek surabaya wanita 2 WALKING_13: 533780133
-      arek surabaya wanita 2 WALKING_14: 1702458352
-      arek surabaya wanita 2 WALKING_15: -638873677
-      arek surabaya wanita 2 WALKING_16: 1342698038
-      arek surabaya wanita 2 WALKING_17: -1907120701
-      arek surabaya wanita 2 WALKING_18: 568970810
-      arek surabaya wanita 2 WALKING_19: -1539430172
-      arek surabaya wanita 2 WALKING_2: 86950074
-      arek surabaya wanita 2 WALKING_3: 1499253741
-      arek surabaya wanita 2 WALKING_4: -39861779
-      arek surabaya wanita 2 WALKING_5: -547351125
-      arek surabaya wanita 2 WALKING_6: -335989693
-      arek surabaya wanita 2 WALKING_7: 1150873599
-      arek surabaya wanita 2 WALKING_8: 635920334
-      arek surabaya wanita 2 WALKING_9: 587843912
+      pasukan tentara jepang WALKING GUN_0: -802060530
+      pasukan tentara jepang WALKING GUN_1: -966872137
+      pasukan tentara jepang WALKING GUN_10: 73370279
+      pasukan tentara jepang WALKING GUN_11: 2140491170
+      pasukan tentara jepang WALKING GUN_12: 47333660
+      pasukan tentara jepang WALKING GUN_13: 1931611477
+      pasukan tentara jepang WALKING GUN_14: -1196870218
+      pasukan tentara jepang WALKING GUN_15: -1939842752
+      pasukan tentara jepang WALKING GUN_16: -1349491161
+      pasukan tentara jepang WALKING GUN_17: 95356254
+      pasukan tentara jepang WALKING GUN_18: 865702296
+      pasukan tentara jepang WALKING GUN_19: 466889907
+      pasukan tentara jepang WALKING GUN_2: -1511718086
+      pasukan tentara jepang WALKING GUN_3: 755263735
+      pasukan tentara jepang WALKING GUN_4: 1705877718
+      pasukan tentara jepang WALKING GUN_5: -2128283933
+      pasukan tentara jepang WALKING GUN_6: -219077741
+      pasukan tentara jepang WALKING GUN_7: -1849490273
+      pasukan tentara jepang WALKING GUN_8: -58575683
+      pasukan tentara jepang WALKING GUN_9: -925737434
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

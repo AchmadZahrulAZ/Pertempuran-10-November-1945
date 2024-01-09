@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5956560492785383737}
   m_Layer: 0
   m_Name: Team
-  m_TagString: Player
+  m_TagString: Team
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,8 +79,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 291627856, guid: 42d88fb6746888e4faed153d0b105ac6, type: 3}
-  m_Color: {r: 0.94509804, g: 0.7607843, b: 0.49019608, a: 1}
+  m_Sprite: {fileID: -966872137, guid: 70e70b3c2dba635429fec95ef3449b13, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
